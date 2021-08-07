@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "51679083046",
+    "project_id": "multiapp-prod",
+    "storage_bucket": "multiapp-prod.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:51679083046:android:6490593875061a5cb044e7",
+        "android_client_info": {
+          "package_name": "com.magicspace.fmp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "51679083046-d7fn4nvfm1q4mgkh69n08ilkovpleeu1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKQIA1fCpwAI_QgDnrsGdrQSs8Pk-UfRU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "51679083046-d7fn4nvfm1q4mgkh69n08ilkovpleeu1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

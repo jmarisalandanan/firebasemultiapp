@@ -33,7 +33,7 @@ namespace MagicSpace.Tools
             androidProjectConfigPath = Path.Combine(Application.dataPath, PLUGIN_PATH, ANDROID_PLUGIN_PATH, FIREBASE_PATH, ANDROID_CONFIG_FILE_NAME);
             androidValuesConfigPath = Path.Combine(Application.dataPath, PLUGIN_PATH, ANDROID_PLUGIN_PATH, FIREBASE_PATH, VALUES_PATH);
 
-            var parentDirectory = Directory.GetParent(Directory.GetCurrentDirectory()).FullName;
+            var parentDirectory = Directory.GetParent(Directory.GetCurrentDirectory())?.FullName;
             androidReleaseConfigPath = Path.Combine(parentDirectory, CONFIG_DIR, FIREBASE_PATH, RELEASE_CONFIG_PATH, ANDROID_CONFIG_FILE_NAME);
             androidDevelopmentConfigPath = Path.Combine(parentDirectory, CONFIG_DIR, FIREBASE_PATH, DEVELOPMENT_CONFIG_PATH, ANDROID_CONFIG_FILE_NAME);
 
